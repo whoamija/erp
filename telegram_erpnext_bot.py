@@ -553,7 +553,7 @@ def download_pdf(doctype: str, name: str) -> bytes | None:
     params = {
         "doctype": doctype,
         "name": name,
-        "format": "Standard",
+        "format": "Decor Test",
         "no_letterhead": 0,
     }
     for path in (
